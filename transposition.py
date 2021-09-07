@@ -1,0 +1,16 @@
+import numpy as np
+a = np.array([2, 3, 4])
+A = np.array([[2, 3, 4]]) #転置をするため、"[]"を追記する
+B = np.array([[1.2, 3.5, 5.1], [-0.3, 1.1, -4.5]])
+print("aの形状")
+print(a.shape)
+print("aの転置")
+print(a.T)
+print("Aの形状")
+print(A.shape)
+print("Aの転置")
+print(A.T)
+print("Bの表示")
+print(B)
+print("Bの転置")
+print(B.T)

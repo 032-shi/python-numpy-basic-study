@@ -1,0 +1,15 @@
+import numpy as np
+B = np.array([[2, 4, 6], [-1, 5, -3], [0, -2, 3]])
+print("最大値")
+print(B.max())
+print("最小値")
+print(B.min())
+print("総和")
+print(B.sum())
+print("平均値")
+print(B.mean())
+print("分散")
+print(B.var())
+print("標準偏差")
+print(B.std())
+#引数に"axis=1"や"axis=2"を指定することでそれぞれの行または列の対象となる値を取得することができる
